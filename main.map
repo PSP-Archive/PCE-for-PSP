@@ -1,0 +1,1651 @@
+Archive member included because of file (symbol)
+
+unziplib.a(zlibInterface.o)   menu.o (Unzip_execExtract)
+unziplib.a(unzip.o)           unziplib.a(zlibInterface.o) (unzCloseCurrentFile)
+unziplib.a(zlibFileMemory.o)  unziplib.a(unzip.o) (___strcmp)
+unziplib.a(crc32.o)           unziplib.a(unzip.o) (get_crc_table)
+unziplib.a(inflate.o)         unziplib.a(unzip.o) (inflateInit2_)
+unziplib.a(inftrees.o)        unziplib.a(inflate.o) (inflate_table)
+unziplib.a(ioapi.o)           unziplib.a(unzip.o) (fill_fopen_filefunc)
+unziplib.a(zutil.o)           unziplib.a(inflate.o) (zcalloc)
+unziplib.a(adler32.o)         unziplib.a(inflate.o) (adler32)
+unziplib.a(inffast.o)         unziplib.a(inflate.o) (inflate_fast)
+
+Allocating common symbols
+Common symbol       size              file
+
+pga_handle          0xc               pg.o
+cd_read_buffer      0x4               pce_main.o
+ea                  0x4               iyanbakan.o
+SPRAM               0x200             pce_main.o
+___zlibAllocBuffPointer
+                    0x4               unziplib.a(zlibFileMemory.o)
+mp3_buffer          0x500000          mp3.o
+fcpsoundbuff        0xac440           sound.o
+oldScrollYDiff      0x4               pce_main.o
+exit_flag           0x4               pce_main.o
+BmpBuffer2          0x7f800           menu.o
+dlist_num           0x4               menu.o
+cd_extra_mem        0x10000           pce_main.o
+mp3                 0x25a0            mp3.o
+system_mes_y        0x4               pg.o
+VRAM                0x20000           pce_main.o
+vchanges            0x400             pce_main.o
+pga_threadhandle    0xc               pg.o
+mp3_size            0x4               mp3.o
+IOAREA              0x2000            pce_main.o
+VRAM2               0x20000           pce_main.o
+key_config_cur      0x4               menu.o
+K                   0x2               M6502.o
+joy_counter         0xa               pce_main.o
+cd_extra_super_mem  0x30000           pce_main.o
+now_depth           0x4               menu.o
+pce_cd_sectoraddress
+                    0x3               pce_main.o
+dlist               0x78000           menu.o
+BmpBuffer           0x5fa39           menu.o
+dwOldPos            0x18              pce_sound.o
+pce_cd_curcmd       0x1               pce_main.o
+pce_cd_temp_stop    0x4               pce_main.o
+scanline            0x4               pce_main.o
+bmp_f               0x8               menu.o
+oldScrollX          0x4               pce_main.o
+system_mes_f        0x16              pg.o
+VRAMS               0x20000           pce_main.o
+pg_showframe        0x4               pg.o
+ROM_size            0x4               pce_main.o
+syorioti_c          0x4               pce_main.o
+CD_track            0x12400           pce_main.o
+___zlibAllocBuff    0x10000           unziplib.a(zlibFileMemory.o)
+system_mes_buf      0x44c             pg.o
+io                  0x5dc             pce_main.o
+J                   0x2               M6502.o
+wavinfo_bg          0x120             sound.o
+out_size            0x4               mp3.o
+ScrollYDiff         0x4               pce_main.o
+pg_screenmode       0x4               pg.o
+ROM_buff            0x28020a          pce_main.o
+state_b1            0x6f41c           pce_main.o
+pg_drawframe        0x4               pg.o
+path_state          0x108             pce_main.o
+ROMMap              0x800             pce_main.o
+cd_fade             0x1               pce_main.o
+palt2               0x20000           pce_main.o
+vchange             0x1000            pce_main.o
+pce_cd_dirinfo      0x4               pce_main.o
+now_path            0x108             menu.o
+mes_b               0x4               pce_main.o
+sbuf                0x675c0           pce_sound.o
+joy_before          0xa               pce_main.o
+prevline            0x4               pce_main.o
+thumbnail_cf        0x4               menu.o
+PCM                 0x10000           pce_main.o
+Page                0x20              pce_main.o
+oldScrollY          0x4               pce_main.o
+cd_toc              0x800             mp3.o
+wavout_snd1_wavinfo
+                    0x120             sound.o
+RAM                 0x8000            pce_main.o
+palt                0x40000           pce_main.o
+ini_data            0x618             menu.o
+dlist_start         0x4               menu.o
+state_f             0x4               pce_main.o
+WRAM                0x2000            pce_main.o
+CDBIOS_replace      0x9a              pce_main.o
+wavout_snd1_playing
+                    0x20              sound.o
+mp3_decode_size     0x4               mp3.o
+dlist_curpos        0x4               menu.o
+cd_sectorcnt        0x1               pce_main.o
+thumbnail_buffer    0x6000            pce_main.o
+path_tmp            0x108             menu.o
+IPeriod             0x4               pce_main.o
+ctl                 0x10              pce_main.o
+pga_channel_callback
+                    0xc               pg.o
+iMode               0x4               pce_main.o
+system_mes_x        0x4               pg.o
+pce_cd_temp_play    0x4               pce_main.o
+cd_sector_buffer    0x2000            pce_main.o
+pce_cd_cmdcnt       0x1               pce_main.o
+pusMovie            0x14              pce_main.o
+iMovieFilePtr       0x4               pce_main.o
+I                   0x1               M6502.o
+Pal                 0x200             pce_main.o
+cbuf_start          0x40              menu.o
+iMaxMoviePtr        0x14              pce_main.o
+M                   0x30              pce_main.o
+cd_buf              0x4000            pce_main.o
+PopRAM              0x10000           pce_main.o
+pce_cd_temp_dirinfo
+                    0x4               pce_main.o
+XBuf                0x4               pce_main.o
+state_b2            0x6f41c           pce_main.o
+iMoviePtr           0x14              pce_main.o
+path_main           0x108             menu.o
+pga_sndbuf          0x1800            pg.o
+vram                0x1a000           pce_main.o
+TimerPeriod         0x4               pce_main.o
+cbuf_curpos         0x40              menu.o
+qf                  0x4               menu.o
+ROM                 0x4               pce_main.o
+fps                 0x4               pce_main.o
+state_q             0x6f41c           pce_main.o
+fsize               0x4               pce_main.o
+DMYROM              0x2000            pce_main.o
+iModeChange         0x4               pce_main.o
+pce_cd_read_datacnt
+                    0x4               pce_main.o
+pce_cd_sectoraddy   0x4               pce_main.o
+CycleOld            0x4               pce_sound.o
+target              0x108             menu.o
+ini_bmp             0x4               menu.o
+sound_c             0x4               mp3.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD startup.o
+LOAD main.o
+LOAD pg.o
+LOAD _clib.o
+LOAD menu.o
+LOAD iyanbakan.o
+LOAD M6502.o
+LOAD sound.o
+LOAD mp3.o
+LOAD clipmp3.o
+LOAD clipmp3a.o
+LOAD frammp3.o
+LOAD pce_main.o
+LOAD pce_sound.o
+LOAD unziplib.a
+Address of section .text set to 0x8900000
+                0x0000000000400000                PROVIDE (__executable_start, 0x400000)
+                0x0000000000400000                . = 0x400000
+
+.interp
+ *(.interp)
+
+.reginfo        0x0000000000400000       0x18
+ *(.reginfo)
+ .reginfo       0x0000000000400000       0x18 startup.o
+
+.dynamic
+ *(.dynamic)
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.dyn
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+
+.rela.dyn
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt
+ *(.plt)
+
+.text           0x0000000008900000    0x238d8
+                0x0000000008900000                _ftext = .
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000008900000       0x94 startup.o
+ .text.stub     0x0000000008900094      0x168 startup.o
+                0x00000000089001bc                sceAudio_1
+                0x000000000890009c                pspDisplaySetFrameBuf
+                0x00000000089000fc                sceIoOpen
+                0x00000000089000ac                sceCtrlInit
+                0x00000000089001dc                sceAudio_5
+                0x000000000890010c                sceIoMkdir
+                0x000000000890013c                sceKernelExitThread
+                0x0000000008900164                sceKernelClearEventFlag
+                0x00000000089001ec                sceAudio_7
+                0x00000000089001ac                scePowerSetClockFrequency
+                0x0000000008900134                sceKernelStartThread
+                0x00000000089000b4                sceCtrlSetAnalogMode
+                0x0000000008900124                sceIoRename
+                0x00000000089001c4                sceAudio_2
+                0x00000000089001b4                sceAudio_0
+                0x000000000890017c                sceKernelCreateCallback
+                0x000000000890014c                sceKernelCreateEventFlag
+                0x0000000008900144                sceKernelSleepThread
+                0x00000000089000e4                sceIoWrite
+                0x000000000890015c                sceKernelSetEventFlag
+                0x00000000089001d4                sceAudio_4
+                0x000000000890018c                sceKernelDeleteThread
+                0x000000000890016c                sceKernelWaitEventFlag
+                0x000000000890012c                sceKernelCreateThread
+                0x0000000008900104                sceIoRemove
+                0x00000000089000dc                sceIoRead
+                0x0000000008900184                sceKernelWaitThreadEnd
+                0x00000000089000f4                sceIoClose
+                0x0000000008900114                sceIoRmdir
+                0x0000000008900174                KernelPollCallbacks
+                0x00000000089001cc                sceAudio_3
+                0x00000000089001a4                scePowerSetCallback
+                0x00000000089000bc                sceCtrlRead
+                0x0000000008900094                pspDisplaySetMode
+                0x00000000089000d4                sceIoDclose
+                0x000000000890019c                SetExitCallback
+                0x00000000089001e4                sceAudio_6
+                0x00000000089000ec                sceIoLseek
+                0x0000000008900154                sceKernelDeleteEventFlag
+                0x00000000089000cc                sceIoDread
+                0x0000000008900194                sceKernelExitGame
+                0x000000000890011c                sceIoDevctl
+                0x00000000089001f4                sceAudio_8
+                0x00000000089000c4                sceIoDopen
+                0x00000000089000a4                pspDisplayWaitVblankStart
+ .text          0x00000000089001fc      0xae0 main.o
+                0x0000000008900afc                counterh
+                0x00000000089001fc                exit_callback
+                0x0000000008900214                CallbackThread
+                0x000000000890020c                power_callback
+                0x00000000089004e4                Draw_Char_Hankaku
+                0x00000000089002fc                wait_button
+                0x00000000089009dc                counter
+                0x0000000008900660                Draw_Char_Zenkaku
+                0x0000000008900c08                xmain
+                0x0000000008900344                num2elisa
+                0x00000000089002d0                rgb2col
+                0x00000000089008e8                mh_print
+                0x000000000890026c                SetupCallbacks
+ .text          0x0000000008900cdc      0xc3c pg.o
+                0x0000000008900d34                pgGetVramAddr
+                0x0000000008901484                pgiInit
+                0x0000000008900cdc                pgWaitVn
+                0x0000000008900d2c                pgWaitV
+                0x00000000089017cc                Error_mes
+                0x000000000890187c                Error_count
+                0x00000000089014a4                pgMain
+                0x0000000008900dc8                pgBitBlt
+                0x0000000008901638                System_mes
+                0x00000000089012e8                pgaOutBlocking
+                0x00000000089016c8                System_count
+                0x0000000008900d6c                pgFillvram
+                0x0000000008901528                System_mes_put
+                0x0000000008901238                pgaTerm
+                0x0000000008900e80                pgScreenFrame
+                0x0000000008901464                pgErrorHalt
+                0x0000000008900f98                pga_channel_thread_callback
+                0x0000000008900f7c                pgScreenFlipV
+                0x0000000008901440                pgExit
+                0x0000000008900fb8                pgaInit
+                0x0000000008900f10                pgInit
+                0x00000000089015dc                System_mes_s
+                0x0000000008900fa0                pgaSetChannelCallback
+                0x0000000008901228                pgaTermPre
+                0x0000000008901500                System_mes_init
+                0x0000000008900f3c                pgScreenFlip
+ .text          0x0000000008901918      0x26c _clib.o
+                0x0000000008901940                _strcat
+                0x000000000890197c                _strncpy
+                0x0000000008901b58                _memcpy
+                0x0000000008901ab0                _memset
+                0x00000000089019c0                _strchr
+                0x0000000008901918                _strcpy
+                0x0000000008901ae0                _memcmp
+                0x0000000008901a2c                _strrchr
+                0x0000000008901a08                _strlen
+ .text          0x0000000008901b84     0x2f10 menu.o
+                0x0000000008903654                state_name_change
+                0x000000000890378c                menu_ini_Draw
+                0x0000000008903604                menu_keyconfig_ini
+                0x0000000008902e04                ini_write
+                0x00000000089027e8                menu_file_Control
+                0x000000000890241c                menu_file_Draw
+                0x0000000008901b84                mh_strncpy
+                0x00000000089022e0                menu_Get_DirList
+                0x0000000008902f08                menu_key_config_Draw
+                0x0000000008902e7c                menu_init
+                0x0000000008904a30                menu_main
+                0x0000000008903454                menu_key_config_Control
+                0x0000000008903748                CpuClockSet
+                0x0000000008902080                kakutyousichk
+                0x0000000008901bd0                mh_strncat
+                0x0000000008902c34                ini_read
+                0x0000000008904138                menu_ini_Control
+                0x0000000008901da8                BmpRead
+                0x0000000008901f48                Bmp_put
+                0x000000000890201c                Read_Key
+                0x0000000008902b3c                menu_file
+                0x0000000008901c54                BmpAkarusa
+                0x0000000008904878                menu_ini
+ .text          0x0000000008904a94      0x694 iyanbakan.o
+                0x0000000008904c78                iyanbakan_e_a1
+                0x0000000008904f9c                iyanbakan_d
+                0x0000000008904b7c                iyanbakan_e_CountSet2
+                0x0000000008904a94                iyanbakan_e_CountSet
+                0x0000000008904e60                iyanbakan_e
+                0x0000000008904bf4                iyanbakan_e_e0
+                0x0000000008904d44                iyanbakan_e_a2
+ .text          0x0000000008905128     0xb134 M6502.o
+                0x000000000890e398                tD1
+                0x000000000890c834                t5D
+                0x0000000008908658                t2F
+                0x00000000089052a8                t1A
+                0x000000000890b70c                tE9
+                0x000000000890bdf8                t94
+                0x00000000089099f0                t25
+                0x0000000008905bc8                _Run6502
+                0x000000000890562c                t88
+                0x000000000890e2e0                tC1
+                0x0000000008909568                t70
+                0x00000000089061c0                t32
+                0x0000000008905284                t3A
+                0x000000000890e458                tE1
+                0x0000000008909f74                tA6
+                0x0000000008908914                t7F
+                0x0000000008909ad4                t45
+                0x0000000008909760                t00
+                0x000000000890c2f0                tF6
+                0x000000000890cf78                tB9
+                0x0000000008905808                t0B
+                0x0000000008908a28                t9F
+                0x000000000890c6c0                t3E
+                0x00000000089094a0                tB0
+                0x0000000008905838                t5B
+                0x00000000089056ac                tCA
+                0x000000000890a6f0                t4E
+                0x000000000890d370                tDE
+                0x0000000008905860                t8B
+                0x000000000890dae4                t31
+                0x00000000089059dc                Int6502
+                0x0000000008905598                t68
+                0x0000000008907f18                t23
+                0x0000000008908e44                t17
+                0x0000000008905608                tC8
+                0x000000000890900c                t77
+                0x0000000008905218                tC2
+                0x000000000890decc                t71
+                0x000000000890926c                tF7
+                0x0000000008909188                tC7
+                0x000000000890bd68                t76
+                0x000000000890556c                t48
+                0x0000000008907ea8                t03
+                0x000000000890548c                t08
+                0x000000000890d85c                tFE
+                0x000000000890540c                t28
+                0x00000000089062fc                t52
+                0x000000000890c8dc                t5E
+                0x0000000008905810                t1B
+                0x0000000008908bcc                tCF
+                0x000000000890cdbc                t7E
+                0x000000000890ad14                tCC
+                0x0000000008905858                t7B
+                0x000000000890ba24                t36
+                0x000000000890d014                tBC
+                0x000000000890fe04                tE3
+                0x00000000089055ec                tA8
+                0x00000000089091d4                tD7
+                0x0000000008909de8                t84
+                0x0000000008905130                t54
+                0x000000000890d9a4                t11
+                0x0000000008905898                tE2
+                0x00000000089090f0                tA7
+                0x0000000008908fc0                t67
+                0x0000000008905244                t22
+                0x0000000008905850                t6B
+                0x000000000890a510                t2D
+                0x000000000890b6a0                tE0
+                0x0000000008909f20                tA5
+                0x000000000890553c                tF8
+                0x000000000890dcc8                t61
+                0x000000000890af0c                tEC
+                0x0000000008905870                tAB
+                0x00000000089055d0                t98
+                0x0000000008905818                t2B
+                0x000000000890e248                tB1
+                0x0000000008909918                t05
+                0x00000000089093dc                tF0
+                0x0000000008908470                tB3
+                0x0000000008909d64                t66
+                0x000000000890da48                t21
+                0x0000000008908c58                tDF
+                0x000000000890aa50                t8C
+                0x0000000008909058                t87
+                0x00000000089085cc                t1F
+                0x0000000008909b34                t46
+                0x000000000890d908                t01
+                0x000000000890c020                tD5
+                0x000000000890520c                t82
+                0x0000000008909884                t2C
+                0x000000000890be50                t95
+                0x0000000008905890                tDC
+                0x0000000008909978                t06
+                0x000000000890931c                t30
+                0x00000000089067c4                t3C
+                0x000000000890537c                t60
+                0x000000000890b300                t49
+                0x000000000890819c                t04
+                0x0000000008906904                t9C
+                0x000000000890b1c8                tEE
+                0x00000000089053cc                t58
+                0x000000000890b8c8                t15
+                0x000000000890b5c8                tC0
+                0x0000000008909664                t4C
+                0x000000000890d41c                tF9
+                0x000000000890c118                tF5
+                0x0000000008905500                tB8
+                0x0000000008908324                tA3
+                0x000000000890c0a8                tD6
+                0x00000000089082a0                t83
+                0x000000000890937c                tD0
+                0x0000000008906250                tD2
+                0x000000000890fb44                tC3
+                0x0000000008905fc8                t72
+                0x0000000008906758                t34
+                0x000000000890e888                tFC
+                0x0000000008908b40                tBF
+                0x000000000890a79c                t6D
+                0x0000000008905e74                t44
+                0x0000000008905190                tFA
+                0x000000000890d0b0                tBD
+                0x0000000008908e90                t27
+                0x000000000890dc24                t51
+                0x0000000008908770                t4F
+                0x0000000008905708                t0A
+                0x000000000890c618                t3D
+                0x00000000089096bc                t6C
+                0x0000000008905888                tDB
+                0x0000000008908ce4                tEF
+                0x00000000089056d8                t9A
+                0x00000000089058a8                tFB
+                0x000000000890d14c                tBE
+                0x0000000008905868                t9B
+                0x000000000890b4fc                tA0
+                0x0000000008906964                t9E
+                0x000000000890686c                t64
+                0x000000000890ab7c                tAC
+                0x000000000890ce88                t99
+                0x0000000008909a50                t26
+                0x0000000008910114                tD3
+                0x0000000008905ee4                t80
+                0x000000000890a998                t6E
+                0x000000000890c78c                t59
+                0x000000000890b934                t16
+                0x000000000890c360                t19
+                0x000000000890c99c                t79
+                0x0000000008905848                t63
+                0x000000000890ac04                tAD
+                0x000000000890d2ac                tDD
+                0x0000000008905650                t8A
+                0x0000000008905138                tDA
+                0x000000000890a0c0                tC6
+                0x000000000890bba0                t75
+                0x0000000008908f28                t47
+                0x0000000008905224                t02
+                0x0000000008907f50                t43
+                0x0000000008905830                t4B
+                0x0000000008908df8                t07
+                0x0000000008906500                tF2
+                0x000000000890bf60                tB5
+                0x00000000089069dc                tF4
+                0x000000000890913c                tB7
+                0x000000000890a1a0                tE5
+                0x000000000890943c                t90
+                0x00000000089086e4                t3F
+                0x000000000890ab18                t8E
+                0x000000000890bb20                t56
+                0x0000000008907ee0                t13
+                0x000000000890e1b8                tA1
+                0x0000000008905788                t4A
+                0x0000000008908540                t0F
+                0x0000000008909220                tE7
+                0x00000000089064a0                t92
+                0x00000000089087fc                t5F
+                0x00000000089080fc                t1C
+                0x000000000890adc4                tCD
+                0x0000000008905f1c                t7C
+                0x000000000890d63c                tFD
+                0x00000000089056ec                tBA
+                0x000000000890c570                t39
+                0x0000000008909ecc                tA4
+                0x000000000890bab4                t55
+                0x0000000008906410                t12
+                0x000000000890ae74                tCE
+                0x000000000890cbac                t7D
+                0x00000000089052cc                t40
+                0x0000000008905264                t42
+                0x000000000890bea8                t96
+                0x000000000890a5a4                t2E
+                0x0000000008908f74                t57
+                0x0000000008908090                t14
+                0x000000000890a36c                tE6
+                0x000000000890e144                t91
+                0x00000000089057c0                t6A
+                0x000000000890d1e8                tD9
+                0x0000000008909e80                t86
+                0x0000000008908edc                t37
+                0x000000000890afbc                tED
+                0x000000000890550c                tD8
+                0x0000000008909e34                t85
+                0x000000000890db88                t41
+                0x000000000890b260                t09
+                0x000000000890566c                tAA
+                0x00000000089090a4                t97
+                0x0000000008908888                t6F
+                0x0000000008905744                t2A
+                0x000000000890aab4                t8D
+                0x0000000008908d70                tFF
+                0x0000000008905828                t3B
+                0x000000000890a3d0                t0D
+                0x0000000008905688                tE8
+                0x00000000089083b4                t93
+                0x000000000890b350                t69
+                0x0000000008909824                t24
+                0x0000000008909ba8                t65
+                0x00000000089095cc                t20
+                0x000000000890b2b0                t29
+                0x0000000008905164                t5A
+                0x000000000890c4b0                t1E
+                0x000000000890ff84                tF3
+                0x000000000890bfc0                tB6
+                0x000000000890638c                tB2
+                0x000000000890a044                tC5
+                0x00000000089068b0                t74
+                0x000000000890e66c                tF1
+                0x000000000890bf00                tB4
+                0x00000000089058a0                tEB
+                0x0000000008905128                tD4
+                0x000000000890e0d8                t81
+                0x0000000008909504                t50
+                0x0000000008906708                t89
+                0x0000000008905840                t5C
+                0x000000000890b540                tA2
+                0x0000000008905820                t33
+                0x000000000890cf00                t9D
+                0x000000000890ac8c                tAE
+                0x00000000089054e8                t18
+                0x000000000890b634                tC9
+                0x0000000008905554                t78
+                0x0000000008908204                t0C
+                0x000000000890a464                t0E
+                0x000000000890b9b8                t35
+                0x0000000008905200                t62
+                0x0000000008909fc8                tC4
+                0x000000000890fca4                t73
+                0x000000000890c408                t1D
+                0x00000000089058b0                Reset6502
+                0x0000000008905880                tCB
+                0x00000000089051c8                t7A
+                0x00000000089056d0                tEA
+                0x0000000008908ab4                tAF
+                0x000000000890899c                t8F
+                0x0000000008907fbc                t53
+                0x00000000089092bc                t10
+                0x000000000890a65c                t4D
+                0x0000000008905524                t38
+                0x0000000008905878                tBB
+                0x000000000890a124                tE4
+                0x000000000890b584                tA9
+ .text          0x000000000891025c      0x4a0 sound.o
+                0x00000000089103fc                wavoutStopPlay0
+                0x00000000089105a8                wavout_1secInits
+                0x0000000008910578                wave_set
+                0x000000000891048c                wavoutStartPlay0
+                0x0000000008910508                wavoutWaitEnd0
+                0x000000000891066c                wavoutInit
+                0x0000000008910580                wavoutStopPlay1
+                0x00000000089106f0                wavoutClearWavinfoPtr
+                0x0000000008910634                wavout_1secInit
+ .text          0x00000000089106fc      0x46c mp3.o
+                0x0000000008910958                mp3_play_1sync
+                0x0000000008910924                mp3_play_stop
+                0x000000000891081c                mp3_play_init
+                0x00000000089106fc                mp3_play_read_track
+ .text          0x0000000008910b68     0x14b0 clipmp3.o
+                0x000000000891162c                mp3_requantize_short
+                0x0000000008910ef4                mp3_read_granule_info
+                0x0000000008911fe4                mp3_play
+                0x0000000008910ba0                isspace
+                0x0000000008910dac                mp3_read_frame_header
+                0x00000000089111f8                mp3_read_scalefactor
+                0x0000000008911fdc                mp3_stop
+                0x00000000089110ec                mp3_read_side_info
+                0x00000000089114a4                mp3_huffman_decode
+                0x0000000008910d1c                mp3_bitstream_open
+                0x0000000008910c50                mp3_id3_tag_v1_read
+                0x0000000008911f70                mp3_init
+                0x0000000008910d2c                mp3_bitstream_skip
+                0x0000000008911a54                mp3_decode_frame
+                0x0000000008911e58                mp3_stream_callback
+                0x0000000008910b68                _memmove
+                0x00000000089117a8                mp3_imdct_short
+ .text          0x0000000008912018      0xb40 frammp3.o
+                0x0000000008912018                mp3_bitstream_get
+                0x0000000008912704                mp3_antialias
+                0x0000000008912958                mp3_subband_synthesys
+                0x0000000008912634                mp3_requantize_long
+                0x0000000008912128                mp3_huffman_decode_bigvalue
+                0x0000000008912390                mp3_huffman_decode_count1
+                0x00000000089127a8                mp3_imdct_long
+ .text          0x0000000008912b58     0x8cac pce_main.o
+                0x0000000008914e7c                RefreshLine
+                0x0000000008913638                pce_cd_read_sector
+                0x0000000008919d5c                wram_write
+                0x000000000891ac3c                RunPCE
+                0x0000000008914e24                TimerInt
+                0x000000000891936c                state_quick_read
+                0x00000000089152cc                RefreshSprite
+                0x000000000891aa60                TrashPCE
+                0x0000000008919e90                bmpchk
+                0x0000000008914c8c                _Wr6502
+                0x0000000008912ef8                fill_cd_info
+                0x000000000891b0cc                pce_main
+                0x0000000008912bfc                cd_toc_read
+                0x0000000008919340                _memcpy_p
+                0x0000000008913c20                issue_ADPCM_dma
+                0x0000000008919f34                pcechk
+                0x0000000008919ccc                wram_read
+                0x000000000891a764                pause_init
+                0x0000000008913680                IO_read
+                0x0000000008919314                _memcpy_g
+                0x00000000089192d0                state_read_chk
+                0x000000000891a6b4                sound_put
+                0x0000000008913bc8                _Rd6502
+                0x000000000891a7d4                JoySticks
+                0x0000000008919fd8                funcUnzipCallback
+                0x000000000891810c                thumbnail_buffer_set
+                0x0000000008918338                RefreshScreen
+                0x000000000891a77c                pause_end
+                0x00000000089180a4                hantoumei
+                0x0000000008912e50                nb_sect2msf
+                0x0000000008917f68                VSyncTimer
+                0x0000000008912ba8                cd_track_search
+                0x000000000891354c                read_sector_CD
+                0x0000000008913cf0                lba2msf
+                0x0000000008912b58                bank_set
+                0x0000000008914d64                min
+                0x000000000891a124                CartLoad
+                0x00000000089199f8                state_write
+                0x00000000089194d4                state_quick_write
+                0x000000000891a25c                InitPCE
+                0x0000000008919dec                zipchk
+                0x0000000008913ccc                pce_cd_set_sector_address
+                0x0000000008914d78                CheckSprites
+                0x0000000008919190                state_file_patch
+                0x0000000008914124                IO_write
+                0x0000000008913358                cd_test_read
+                0x0000000008912eb4                msf2nb_sect
+                0x0000000008913d98                pce_cd_handle_command
+                0x00000000089195e8                state_read
+                0x000000000891aa68                ResetPCE
+                0x000000000891b2b0                Loop6502
+ .text          0x000000000891b804     0x1094 pce_sound.o
+                0x000000000891c46c                WriteADPCM
+                0x000000000891c718                write_psg
+                0x000000000891b848                WriteBuffer
+                0x000000000891c18c                WriteSoundData
+ .text          0x000000000891c898      0x1dc unziplib.a(zlibInterface.o)
+                0x000000000891ca68                Unzip_setCallback
+                0x000000000891c898                Unzip_execExtract
+ .text          0x000000000891ca74     0x3ad8 unziplib.a(unzip.o)
+                0x000000000891e290                unzOpenCurrentFilePassword
+                0x000000000891db14                unzReadCurrentFile
+                0x000000000891e1fc                unzGoToFilePos
+                0x000000000891d440                unzLocateFile
+                0x000000000891d6e0                unzOpenCurrentFile3
+                0x000000000891d3e0                unzGoToFirstFile
+                0x000000000891e268                unzOpenCurrentFile
+                0x000000000891e2b8                unzOpenCurrentFile2
+                0x000000000891e0a4                unzGetGlobalInfo
+                0x000000000891e314                unzGetLocalExtrafield
+                0x000000000891e0c8                unzGetCurrentFileInfo
+                0x000000000891e1c4                unzGetFilePos
+                0x000000000891e4f0                unzSetOffset
+                0x000000000891e4ac                unzGetOffset
+                0x000000000891e110                unzGoToNextFile
+                0x000000000891deb4                unzCloseCurrentFile
+                0x000000000891e2f0                unzeof
+                0x000000000891e3d4                unzGetGlobalComment
+                0x000000000891e2d4                unztell
+                0x000000000891ca74                unzOpen2
+                0x000000000891df70                unzStringFileNameCompare
+                0x000000000891e044                unzClose
+                0x000000000891e028                unzOpen
+ .text          0x000000000892054c      0x474 unziplib.a(zlibFileMemory.o)
+                0x00000000089208d4                ___ftell
+                0x0000000008920978                _(float, long double,...)(...)
+                0x000000000892082c                ___strcat
+                0x0000000008920890                ___fopen
+                0x000000000892054c                ___itoa
+                0x0000000008920940                ___fread
+                0x00000000089208e0                ___fseek
+                0x0000000008920938                ___ferror
+                0x00000000089206f8                ___memcpy
+                0x00000000089208cc                ___fwrite
+                0x000000000892072c                ___strcmp
+                0x0000000008920758                ___strlen
+                0x0000000008920914                ___fclose
+                0x0000000008920980                ___calloc
+                0x0000000008920780                ___strcpy
+                0x00000000089207c4                ___strrev
+                0x0000000008920630                ___itoa32
+                0x0000000008920988                ___malloc
+ .text          0x00000000089209c0      0x19c unziplib.a(crc32.o)
+                0x00000000089209cc                crc32
+                0x00000000089209c0                get_crc_table
+ .text          0x0000000008920b5c     0x1f10 unziplib.a(inflate.o)
+                0x0000000008922614                inflateCopy
+                0x0000000008920cbc                inflate
+                0x00000000089228cc                inflateSyncPoint
+                0x0000000008922838                inflateInit_
+                0x00000000089227d8                inflateReset
+                0x00000000089223e4                inflateSync
+                0x00000000089222e0                inflateSetDictionary
+                0x000000000892285c                inflateEnd
+                0x0000000008920b5c                inflateInit2_
+ .text          0x0000000008922a6c      0x558 unziplib.a(inftrees.o)
+                0x0000000008922a6c                inflate_table
+ .text          0x0000000008922fc4      0x1ec unziplib.a(ioapi.o)
+                0x00000000089230b0                fseek_file_func
+                0x0000000008923044                fread_file_func
+                0x000000000892311c                fclose_file_func
+                0x0000000008923154                fill_fopen_filefunc
+                0x0000000008923094                ftell_file_func
+                0x0000000008923138                ferror_file_func
+                0x000000000892306c                fwrite_file_func
+                0x0000000008922fc4                fopen_file_func
+ .text          0x00000000089231b0       0x74 unziplib.a(zutil.o)
+                0x00000000089231b8                zlibVersion
+                0x00000000089231b0                zlibCompileFlags
+                0x0000000008923208                zcfree
+                0x00000000089231c4                zError
+                0x00000000089231e4                zcalloc
+ .text          0x0000000008923224      0x18c unziplib.a(adler32.o)
+                0x0000000008923224                adler32
+ .text          0x00000000089233b0      0x528 unziplib.a(inffast.o)
+                0x00000000089233b0                inflate_fast
+ *(.text.*personality*)
+ *(.gnu.warning)
+ *(.mips16.fn.*)
+ *(.mips16.call.*)
+
+.fini
+ *(.fini)
+                0x00000000089238d8                PROVIDE (__etext, .)
+                0x00000000089238d8                PROVIDE (_etext, .)
+                0x00000000089238d8                PROVIDE (etext, .)
+
+.rodata         0x00000000089238e0    0x2c4d0
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.entrytable
+                0x00000000089238e0       0x14 startup.o
+ *fill*         0x00000000089238f4        0xc 00
+ .rodata        0x0000000008923900       0x20 startup.o
+ .rodata.stubmodulename
+                0x0000000008923920       0x80 startup.o
+ .rodata.stubidtable
+                0x00000000089239a0       0xb4 startup.o
+ .rodata        0x0000000008923a54    0x21f84 main.o
+                0x0000000008945398                hankaku_font10
+                0x0000000008923a54                zenkaku_font10
+ .rodata.str1.4
+                0x00000000089459d8       0x39 main.o
+                                         0x3c (size before relaxing)
+ *fill*         0x0000000008945a11        0x3 00
+ .rodata.str1.4
+                0x0000000008945a14       0x2d pg.o
+                                         0x30 (size before relaxing)
+ *fill*         0x0000000008945a41        0x3 00
+ .rodata.str1.4
+                0x0000000008945a44      0x7ef menu.o
+                                        0x800 (size before relaxing)
+ *fill*         0x0000000008946233        0x1 00
+ .rodata        0x0000000008946234       0x84 menu.o
+ .rodata        0x00000000089462b8      0x280 M6502.o
+ .rodata.str1.4
+                0x0000000008946538       0x13 M6502.o
+                                         0x14 (size before relaxing)
+ *fill*         0x000000000894654b        0x1 00
+ .rodata.str1.4
+                0x000000000894654c       0x40 mp3.o
+ .rodata.str1.4
+                0x000000000894658c        0x4 clipmp3.o
+ .rodata        0x0000000008946590     0x8408 clipmp3a.o
+                0x000000000894e7f4                mp3_scalefactor_band_index_table
+                0x0000000008947a60                mp3_imdct_long_matrix
+                0x000000000894d1a8                mp3_huffman_bigvalue_table
+                0x0000000008947f70                mp3_antialias_table
+                0x00000000089479d0                mp3_imdct_short_matrix
+                0x000000000894c3b0                mp3_reorder_read_index_table
+                0x0000000008946590                mp3_sampling_frequency_convert_table
+                0x000000000894e908                mp3_scalefactor_compress_table
+                0x00000000089465d0                mp3_polyphase_filter
+                0x000000000894e958                mp3_bitrate_table
+                0x00000000089469d0                mp3_subband_matrix
+                0x0000000008947f90                mp3_pow1_3_table
+                0x000000000894e948                mp3_sampling_frequency_table
+                0x000000000894bfb0                mp3_gain_table
+ .rodata.str1.4
+                0x000000000894e998      0x125 pce_main.o
+                                        0x130 (size before relaxing)
+ *fill*         0x000000000894eabd        0x3 00
+ .rodata        0x000000000894eac0      0x190 pce_main.o
+ .rodata        0x000000000894ec50       0x54 unziplib.a(unzip.o)
+                0x000000000894ec50                unz_copyright
+ .rodata        0x000000000894eca4      0x400 unziplib.a(crc32.o)
+ .rodata        0x000000000894f0a4      0xae0 unziplib.a(inflate.o)
+ .rodata        0x000000000894fb84      0x130 unziplib.a(inftrees.o)
+                0x000000000894fb84                inflate_copyright
+ .rodata        0x000000000894fcb4       0xa8 unziplib.a(zutil.o)
+                0x000000000894fd34                z_errmsg
+ .rodata        0x000000000894fd5c       0x54 unziplib.a(inffast.o)
+
+.rodata1
+ *(.rodata1)
+
+.sdata2
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+
+.sbss2
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table)
+ *(.gcc_except_table.*)
+                0x000000000894fdb0                . = (ALIGN (0x40000) - ((0x40000 - .) & 0x3ffff))
+                0x0000000008990000                . = (0x40000 DATA_SEGMENT_ALIGN 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table)
+ *(.gcc_except_table.*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+                0x0000000008990000                . = ALIGN (0x4)
+                0x0000000008990000                PROVIDE (__preinit_array_start, .)
+
+.preinit_array
+ *(.preinit_array)
+                0x0000000008990000                PROVIDE (__preinit_array_end, .)
+                0x0000000008990000                PROVIDE (__init_array_start, .)
+
+.init_array
+ *(.init_array)
+                0x0000000008990000                PROVIDE (__init_array_end, .)
+                0x0000000008990000                PROVIDE (__fini_array_start, .)
+
+.fini_array
+ *(.fini_array)
+                0x0000000008990000                PROVIDE (__fini_array_end, .)
+
+.ctors
+ *crtbegin*.o(.ctors)
+ *(EXCLUDE_FILE(*crtend*.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin*.o(.dtors)
+ *(EXCLUDE_FILE(*crtend*.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro
+ *(.data.rel.ro.local)
+ *(.data.rel.ro*)
+                0x0000000008990000                . = (. DATA_SEGMENT_RELRO_END 0x0)
+
+.data           0x0000000008990000     0x146c
+                0x0000000008990000                _fdata = .
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000008990000       0x14 main.o
+ .data          0x0000000008990014      0x1e0 menu.o
+                0x000000000899003c                ini_filename
+                0x0000000008990048                title
+                0x0000000008990014                stateslot
+ .data          0x00000000089901f4      0x500 M6502.o
+                0x00000000089901f4                functbl
+ .data          0x00000000089906f4       0x30 mp3.o
+ .data          0x0000000008990724      0xb0c pce_main.o
+                0x0000000008990a30                ISO_header
+                0x0000000008990930                ISO_filename
+                0x0000000008990830                binbcd
+                0x0000000008990724                wram_filename
+                0x0000000008990730                bcdbin
+ .data          0x0000000008991230      0x23c pce_sound.o
+                0x0000000008991230                AdpcmStepSizeTable
+                0x0000000008991394                AdpcmIndexAdjustTable
+ *(.gnu.linkonce.d.*personality*)
+
+.lib.ent        0x000000000899146c       0x10
+ .lib.ent       0x000000000899146c       0x10 startup.o
+
+.lib.ent.btm    0x000000000899147c        0x4
+ .lib.ent.btm   0x000000000899147c        0x4 startup.o
+
+.lib.stub       0x0000000008991480       0x8c
+ .lib.stub      0x0000000008991480       0x8c startup.o
+
+.lib.stub.btm   0x000000000899150c        0x4
+ .lib.stub.btm  0x000000000899150c        0x4 startup.o
+
+.xodata.sceModuleInfo
+                0x0000000008991520       0x40
+ .xodata.sceModuleInfo
+                0x0000000008991520       0x40 startup.o
+
+.data1
+ *(.data1)
+                0x0000000008991560                . = .
+                0x0000000008999550                _gp = (ALIGN (0x10) + 0x7ff0)
+
+.got
+ *(.got.plt)
+ *(.got)
+
+.sdata          0x0000000008991560       0x98
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x0000000008991560        0x4 pg.o
+                0x0000000008991560                pg_vramtop
+ .sdata         0x0000000008991564       0x10 menu.o
+                0x0000000008991568                bmp_i
+                0x0000000008991564                ini_cur
+ .sdata         0x0000000008991574        0x1 M6502.o
+ *fill*         0x0000000008991575        0x3 00
+ .sdata         0x0000000008991578        0x8 clipmp3a.o
+                0x0000000008991578                mp3_huffman_count1_table
+ .sdata         0x0000000008991580       0x3c pce_main.o
+                0x000000000899158c                scanlines_per_frame
+                0x0000000008991580                mes_c
+                0x000000000899158a                SPONSwitch
+                0x0000000008991590                BaseClock
+                0x000000000899158b                BGONSwitch
+                0x0000000008991588                nb_max_track
+                0x0000000008991584                snd_use_sound
+                0x0000000008991589                minimum_bios_hooking
+ .sdata         0x00000000089915bc       0x10 pce_sound.o
+                0x00000000089915c0                ds_channels
+                0x00000000089915bc                ds_sample_rate
+ .sdata         0x00000000089915cc        0x4 unziplib.a(zlibInterface.o)
+                0x00000000089915cc                ___zlib_pfuncCallback
+ .sdata         0x00000000089915d0        0x8 unziplib.a(unzip.o)
+ .sdata         0x00000000089915d8        0x8 unziplib.a(zlibFileMemory.o)
+                0x00000000089915d8                ___zlibInFile
+ .sdata         0x00000000089915e0        0xc unziplib.a(ioapi.o)
+ .sdata         0x00000000089915ec        0xc unziplib.a(zutil.o)
+
+.lit8
+ *(.lit8)
+
+.lit4
+ *(.lit4)
+                0x00000000089915f8                _edata = .
+                0x00000000089915f8                PROVIDE (edata, .)
+                0x00000000089915f8                __bss_start = .
+                0x00000000089915f8                _fbss = .
+
+.sbss           0x00000000089915f8      0x1b4
+                0x00000000089915f8                PROVIDE (__sbss_start, .)
+                0x00000000089915f8                PROVIDE (___sbss_start, .)
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x00000000089915f8        0x4 main.o
+                0x00000000089915f8                psp_exit_flag
+ .sbss          0x00000000089915fc        0xc pg.o
+                0x0000000008991604                pga_ready
+                0x00000000089915fc                pg_terminate
+                0x0000000008991600                pga_terminate
+ .sbss          0x0000000008991608       0x14 menu.o
+                0x000000000899160c                file_type
+                0x0000000008991610                control_bef_tick
+                0x0000000008991608                state_slot
+                0x0000000008991614                control_bef_ctl
+ .sbss          0x000000000899161c        0x4 iyanbakan.o
+                0x000000000899161c                esize
+ .sbss          0x0000000008991620        0xc M6502.o
+ .sbss          0x000000000899162c       0x10 sound.o
+                0x0000000008991630                wavout_snd0_playend
+                0x0000000008991638                wavout_snd0_wavinfo
+                0x0000000008991634                wavout_snd0_ready
+                0x000000000899162c                wavout_snd0_playptr
+ .sbss          0x000000000899163c        0x4 mp3.o
+                0x000000000899163c                mp3_flag
+ .sbss          0x0000000008991640        0x8 clipmp3.o
+ .sbss          0x0000000008991648       0x74 pce_main.o
+                0x0000000008991660                packed_iso_filesize
+                0x0000000008991668                cd_port_1801
+                0x0000000008991658                first_sector
+                0x0000000008991678                sf2ce
+                0x0000000008991670                skip_next_frame
+                0x0000000008991679                populus
+                0x000000000899166a                builtin_system_used
+                0x0000000008991680                Country
+                0x0000000008991648                state_flag
+                0x0000000008991669                cd_port_1800
+                0x000000000899166b                CD_emulation
+                0x0000000008991666                cd_port_1804
+                0x0000000008991674                scroll
+                0x000000000899166c                hook_start_cd_system
+                0x0000000008991667                cd_port_1802
+                0x000000000899165c                pce_enable_cdrom
+                0x000000000899164c                mes_f
+                0x0000000008991650                syorioti
+                0x0000000008991664                pce_cd_adpcm_trans_done
+                0x0000000008991665                cd_port_180b
+                0x0000000008991654                Black
+                0x000000000899167c                UPeriod
+ .sbss          0x00000000089916bc       0x14 pce_sound.o
+                0x00000000089916c0                AdpcmFilledBuf
+                0x00000000089916bc                new_adpcm_play
+ *(.scommon)
+ .scommon       0x00000000089916d0       0x14 pg.o
+                0x00000000089916d0                system_mes_y
+                0x00000000089916d4                pg_showframe
+                0x00000000089916d8                pg_screenmode
+                0x00000000089916dc                pg_drawframe
+                0x00000000089916e0                system_mes_x
+ .scommon       0x00000000089916e4       0x28 menu.o
+                0x00000000089916e4                dlist_num
+                0x00000000089916e8                key_config_cur
+                0x00000000089916ec                now_depth
+                0x00000000089916f0                bmp_f
+                0x00000000089916f8                thumbnail_cf
+                0x00000000089916fc                dlist_start
+                0x0000000008991700                dlist_curpos
+                0x0000000008991704                qf
+                0x0000000008991708                ini_bmp
+ .scommon       0x000000000899170c        0x4 iyanbakan.o
+                0x000000000899170c                ea
+ .scommon       0x0000000008991710        0x7 M6502.o
+                0x0000000008991710                K
+                0x0000000008991714                J
+                0x0000000008991716                I
+ *fill*         0x0000000008991717        0x1 00
+ .scommon       0x0000000008991718       0x10 mp3.o
+                0x0000000008991718                mp3_size
+                0x000000000899171c                out_size
+                0x0000000008991720                mp3_decode_size
+                0x0000000008991724                sound_c
+ .scommon       0x0000000008991728       0x7c pce_main.o
+                0x0000000008991728                cd_read_buffer
+                0x000000000899172c                oldScrollYDiff
+                0x0000000008991730                exit_flag
+                0x0000000008991734                pce_cd_sectoraddress
+                0x0000000008991737                pce_cd_curcmd
+                0x0000000008991738                pce_cd_temp_stop
+                0x000000000899173c                scanline
+                0x0000000008991740                oldScrollX
+                0x0000000008991744                ROM_size
+                0x0000000008991748                syorioti_c
+                0x000000000899174c                ScrollYDiff
+                0x0000000008991750                cd_fade
+                0x0000000008991754                pce_cd_dirinfo
+                0x0000000008991758                mes_b
+                0x000000000899175c                prevline
+                0x0000000008991760                oldScrollY
+                0x0000000008991764                state_f
+                0x0000000008991768                cd_sectorcnt
+                0x000000000899176c                IPeriod
+                0x0000000008991770                iMode
+                0x0000000008991774                pce_cd_temp_play
+                0x0000000008991778                pce_cd_cmdcnt
+                0x000000000899177c                iMovieFilePtr
+                0x0000000008991780                pce_cd_temp_dirinfo
+                0x0000000008991784                XBuf
+                0x0000000008991788                TimerPeriod
+                0x000000000899178c                ROM
+                0x0000000008991790                fps
+                0x0000000008991794                fsize
+                0x0000000008991798                iModeChange
+                0x000000000899179c                pce_cd_read_datacnt
+                0x00000000089917a0                pce_cd_sectoraddy
+ .scommon       0x00000000089917a4        0x4 pce_sound.o
+                0x00000000089917a4                CycleOld
+ .scommon       0x00000000089917a8        0x4 unziplib.a(zlibFileMemory.o)
+                0x00000000089917a8                ___zlibAllocBuffPointer
+                0x00000000089917ac                PROVIDE (__sbss_end, .)
+                0x00000000089917ac                PROVIDE (___sbss_end, .)
+
+.bss            0x00000000089917ac   0xcba150
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00000000089917ac      0x400 menu.o
+ .bss           0x0000000008991bac     0x2ea0 clipmp3.o
+ .bss           0x0000000008994a4c       0x88 pce_sound.o
+ *(COMMON)
+ COMMON         0x0000000008994ad4     0x1c88 pg.o
+                0x0000000008994ad4                pga_handle
+                0x0000000008994ae0                pga_threadhandle
+                0x0000000008994aec                system_mes_f
+                0x0000000008994b04                system_mes_buf
+                0x0000000008994f50                pga_channel_callback
+                0x0000000008994f5c                pga_sndbuf
+ COMMON         0x000000000899675c   0x157cf4 menu.o
+                0x000000000899675c                BmpBuffer2
+                0x0000000008a15f5c                dlist
+                0x0000000008a8df5c                BmpBuffer
+                0x0000000008aed998                now_path
+                0x0000000008aedaa0                ini_data
+                0x0000000008aee0b8                path_tmp
+                0x0000000008aee1c0                cbuf_start
+                0x0000000008aee200                path_main
+                0x0000000008aee308                cbuf_curpos
+                0x0000000008aee348                target
+ COMMON         0x0000000008aee450    0xac6a0 sound.o
+                0x0000000008aee450                fcpsoundbuff
+                0x0000000008b9a890                wavinfo_bg
+                0x0000000008b9a9b0                wavout_snd1_wavinfo
+                0x0000000008b9aad0                wavout_snd1_playing
+ COMMON         0x0000000008b9aaf0   0x502da0 mp3.o
+                0x0000000008b9aaf0                mp3_buffer
+                0x000000000909aaf0                mp3
+                0x000000000909d090                cd_toc
+ COMMON         0x000000000909d890   0x536a94 pce_main.o
+                0x000000000909d890                SPRAM
+                0x000000000909da90                cd_extra_mem
+                0x00000000090ada90                VRAM
+                0x00000000090cda90                vchanges
+                0x00000000090cde90                IOAREA
+                0x00000000090cfe90                VRAM2
+                0x00000000090efe90                joy_counter
+                0x00000000090efe9c                cd_extra_super_mem
+                0x000000000911fe9c                VRAMS
+                0x000000000913fe9c                CD_track
+                0x000000000915229c                io
+                0x0000000009152878                ROM_buff
+                0x00000000093d2a84                state_b1
+                0x0000000009441ea0                path_state
+                0x0000000009441fa8                ROMMap
+                0x00000000094427a8                palt2
+                0x00000000094627a8                vchange
+                0x00000000094637a8                joy_before
+                0x00000000094637b4                PCM
+                0x00000000094737b4                Page
+                0x00000000094737d4                RAM
+                0x000000000947b7d4                palt
+                0x00000000094bb7d4                WRAM
+                0x00000000094bd7d4                CDBIOS_replace
+                0x00000000094bd870                thumbnail_buffer
+                0x00000000094c3870                ctl
+                0x00000000094c3880                cd_sector_buffer
+                0x00000000094c5880                pusMovie
+                0x00000000094c5894                Pal
+                0x00000000094c5a94                iMaxMoviePtr
+                0x00000000094c5aa8                M
+                0x00000000094c5ad8                cd_buf
+                0x00000000094c9ad8                PopRAM
+                0x00000000094d9ad8                state_b2
+                0x0000000009548ef4                iMoviePtr
+                0x0000000009548f08                vram
+                0x0000000009562f08                state_q
+                0x00000000095d2324                DMYROM
+ COMMON         0x00000000095d4324    0x675d8 pce_sound.o
+                0x00000000095d4324                dwOldPos
+                0x00000000095d433c                sbuf
+ COMMON         0x000000000963b8fc    0x10000 unziplib.a(zlibFileMemory.o)
+                0x000000000963b8fc                ___zlibAllocBuff
+                0x000000000964b8fc                . = ALIGN (0x4)
+                0x000000000964b8fc                . = ALIGN (0x4)
+                0x000000000964b8fc                _end = .
+                0x000000000964b8fc                PROVIDE (end, .)
+                0x000000000964b8fc                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000      0x19e
+ *(.comment)
+ .comment       0x0000000000000000       0x12 main.o
+ .comment       0x0000000000000012       0x12 pg.o
+ .comment       0x0000000000000024       0x12 _clib.o
+ .comment       0x0000000000000036       0x12 menu.o
+ .comment       0x0000000000000048       0x12 iyanbakan.o
+ .comment       0x000000000000005a       0x12 M6502.o
+ .comment       0x000000000000006c       0x12 sound.o
+ .comment       0x000000000000007e       0x12 mp3.o
+ .comment       0x0000000000000090       0x12 clipmp3.o
+ .comment       0x00000000000000a2       0x12 clipmp3a.o
+ .comment       0x00000000000000b4       0x12 frammp3.o
+ .comment       0x00000000000000c6       0x12 pce_main.o
+ .comment       0x00000000000000d8       0x12 pce_sound.o
+ .comment       0x00000000000000ea       0x12 unziplib.a(zlibInterface.o)
+ .comment       0x00000000000000fc       0x12 unziplib.a(unzip.o)
+ .comment       0x000000000000010e       0x12 unziplib.a(zlibFileMemory.o)
+ .comment       0x0000000000000120       0x12 unziplib.a(crc32.o)
+ .comment       0x0000000000000132       0x12 unziplib.a(inflate.o)
+ .comment       0x0000000000000144       0x12 unziplib.a(inftrees.o)
+ .comment       0x0000000000000156       0x12 unziplib.a(ioapi.o)
+ .comment       0x0000000000000168       0x12 unziplib.a(zutil.o)
+ .comment       0x000000000000017a       0x12 unziplib.a(adler32.o)
+ .comment       0x000000000000018c       0x12 unziplib.a(inffast.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x2e8
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 startup.o
+ .debug_aranges
+                0x0000000000000028       0x20 main.o
+ .debug_aranges
+                0x0000000000000048       0x20 pg.o
+ .debug_aranges
+                0x0000000000000068       0x20 _clib.o
+ .debug_aranges
+                0x0000000000000088       0x20 menu.o
+ .debug_aranges
+                0x00000000000000a8       0x20 iyanbakan.o
+ .debug_aranges
+                0x00000000000000c8       0x20 M6502.o
+ .debug_aranges
+                0x00000000000000e8       0x20 sound.o
+ .debug_aranges
+                0x0000000000000108       0x20 mp3.o
+ .debug_aranges
+                0x0000000000000128       0x20 clipmp3.o
+ .debug_aranges
+                0x0000000000000148       0x20 frammp3.o
+ .debug_aranges
+                0x0000000000000168       0x20 pce_main.o
+ .debug_aranges
+                0x0000000000000188       0x20 pce_sound.o
+ .debug_aranges
+                0x00000000000001a8       0x20 unziplib.a(zlibInterface.o)
+ .debug_aranges
+                0x00000000000001c8       0x20 unziplib.a(unzip.o)
+ .debug_aranges
+                0x00000000000001e8       0x20 unziplib.a(zlibFileMemory.o)
+ .debug_aranges
+                0x0000000000000208       0x20 unziplib.a(crc32.o)
+ .debug_aranges
+                0x0000000000000228       0x20 unziplib.a(inflate.o)
+ .debug_aranges
+                0x0000000000000248       0x20 unziplib.a(inftrees.o)
+ .debug_aranges
+                0x0000000000000268       0x20 unziplib.a(ioapi.o)
+ .debug_aranges
+                0x0000000000000288       0x20 unziplib.a(zutil.o)
+ .debug_aranges
+                0x00000000000002a8       0x20 unziplib.a(adler32.o)
+ .debug_aranges
+                0x00000000000002c8       0x20 unziplib.a(inffast.o)
+
+.debug_pubnames
+                0x0000000000000000     0x2069
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x0000000000000000      0x11b main.o
+ .debug_pubnames
+                0x000000000000011b      0x1f5 pg.o
+ .debug_pubnames
+                0x0000000000000310       0x80 _clib.o
+ .debug_pubnames
+                0x0000000000000390      0x224 menu.o
+ .debug_pubnames
+                0x00000000000005b4       0xa8 iyanbakan.o
+ .debug_pubnames
+                0x000000000000065c      0x845 M6502.o
+ .debug_pubnames
+                0x0000000000000ea1      0x11f sound.o
+ .debug_pubnames
+                0x0000000000000fc0       0x6e mp3.o
+ .debug_pubnames
+                0x000000000000102e      0x16d clipmp3.o
+ .debug_pubnames
+                0x000000000000119b      0x1bc clipmp3a.o
+ .debug_pubnames
+                0x0000000000001357       0xbd frammp3.o
+ .debug_pubnames
+                0x0000000000001414      0x57b pce_main.o
+ .debug_pubnames
+                0x000000000000198f       0xcc pce_sound.o
+ .debug_pubnames
+                0x0000000000001a5b       0x58 unziplib.a(zlibInterface.o)
+ .debug_pubnames
+                0x0000000000001ab3      0x1f6 unziplib.a(unzip.o)
+ .debug_pubnames
+                0x0000000000001ca9      0x149 unziplib.a(zlibFileMemory.o)
+ .debug_pubnames
+                0x0000000000001df2       0x2e unziplib.a(crc32.o)
+ .debug_pubnames
+                0x0000000000001e20       0xaf unziplib.a(inflate.o)
+ .debug_pubnames
+                0x0000000000001ecf       0x3a unziplib.a(inftrees.o)
+ .debug_pubnames
+                0x0000000000001f09       0xb9 unziplib.a(ioapi.o)
+ .debug_pubnames
+                0x0000000000001fc2       0x66 unziplib.a(zutil.o)
+ .debug_pubnames
+                0x0000000000002028       0x1e unziplib.a(adler32.o)
+ .debug_pubnames
+                0x0000000000002046       0x23 unziplib.a(inffast.o)
+
+.debug_info     0x0000000000000000    0x13084
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x40 startup.o
+ .debug_info    0x0000000000000040      0x621 main.o
+ .debug_info    0x0000000000000661      0x7f8 pg.o
+ .debug_info    0x0000000000000e59      0x300 _clib.o
+ .debug_info    0x0000000000001159      0xd2a menu.o
+ .debug_info    0x0000000000001e83      0x3ee iyanbakan.o
+ .debug_info    0x0000000000002271     0x2880 M6502.o
+ .debug_info    0x0000000000004af1      0x359 sound.o
+ .debug_info    0x0000000000004e4a      0x430 mp3.o
+ .debug_info    0x000000000000527a      0xf7f clipmp3.o
+ .debug_info    0x00000000000061f9      0x6de clipmp3a.o
+ .debug_info    0x00000000000068d7      0x9d7 frammp3.o
+ .debug_info    0x00000000000072ae     0x2bb1 pce_main.o
+ .debug_info    0x0000000000009e5f      0xbaf pce_sound.o
+ .debug_info    0x000000000000aa0e      0x8ff unziplib.a(zlibInterface.o)
+ .debug_info    0x000000000000b30d     0x4016 unziplib.a(unzip.o)
+ .debug_info    0x000000000000f323      0xb90 unziplib.a(zlibFileMemory.o)
+ .debug_info    0x000000000000feb3      0x3c8 unziplib.a(crc32.o)
+ .debug_info    0x000000000001027b      0xe58 unziplib.a(inflate.o)
+ .debug_info    0x00000000000110d3      0x662 unziplib.a(inftrees.o)
+ .debug_info    0x0000000000011735      0x8cd unziplib.a(ioapi.o)
+ .debug_info    0x0000000000012002      0x51b unziplib.a(zutil.o)
+ .debug_info    0x000000000001251d      0x369 unziplib.a(adler32.o)
+ .debug_info    0x0000000000012886      0x7fe unziplib.a(inffast.o)
+
+.debug_abbrev   0x0000000000000000     0x2b38
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x10 startup.o
+ .debug_abbrev  0x0000000000000010      0x207 main.o
+ .debug_abbrev  0x0000000000000217      0x32b pg.o
+ .debug_abbrev  0x0000000000000542       0xf5 _clib.o
+ .debug_abbrev  0x0000000000000637      0x279 menu.o
+ .debug_abbrev  0x00000000000008b0      0x100 iyanbakan.o
+ .debug_abbrev  0x00000000000009b0      0x32c M6502.o
+ .debug_abbrev  0x0000000000000cdc      0x1c6 sound.o
+ .debug_abbrev  0x0000000000000ea2      0x13c mp3.o
+ .debug_abbrev  0x0000000000000fde      0x291 clipmp3.o
+ .debug_abbrev  0x000000000000126f       0xc0 clipmp3a.o
+ .debug_abbrev  0x000000000000132f      0x246 frammp3.o
+ .debug_abbrev  0x0000000000001575      0x38d pce_main.o
+ .debug_abbrev  0x0000000000001902      0x293 pce_sound.o
+ .debug_abbrev  0x0000000000001b95      0x188 unziplib.a(zlibInterface.o)
+ .debug_abbrev  0x0000000000001d1d      0x23e unziplib.a(unzip.o)
+ .debug_abbrev  0x0000000000001f5b      0x1a8 unziplib.a(zlibFileMemory.o)
+ .debug_abbrev  0x0000000000002103      0x13f unziplib.a(crc32.o)
+ .debug_abbrev  0x0000000000002242      0x21a unziplib.a(inflate.o)
+ .debug_abbrev  0x000000000000245c      0x164 unziplib.a(inftrees.o)
+ .debug_abbrev  0x00000000000025c0      0x15d unziplib.a(ioapi.o)
+ .debug_abbrev  0x000000000000271d      0x187 unziplib.a(zutil.o)
+ .debug_abbrev  0x00000000000028a4      0x117 unziplib.a(adler32.o)
+ .debug_abbrev  0x00000000000029bb      0x17d unziplib.a(inffast.o)
+
+.debug_line     0x0000000000000000     0x918d
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x93 startup.o
+ .debug_line    0x0000000000000093      0x1c8 main.o
+ .debug_line    0x000000000000025b      0x1d3 pg.o
+ .debug_line    0x000000000000042e       0x75 _clib.o
+ .debug_line    0x00000000000004a3      0x5fb menu.o
+ .debug_line    0x0000000000000a9e      0x13f iyanbakan.o
+ .debug_line    0x0000000000000bdd      0x99a M6502.o
+ .debug_line    0x0000000000001577       0xf4 sound.o
+ .debug_line    0x000000000000166b      0x126 mp3.o
+ .debug_line    0x0000000000001791      0x34a clipmp3.o
+ .debug_line    0x0000000000001adb       0x35 clipmp3a.o
+ .debug_line    0x0000000000001b10      0x1d8 frammp3.o
+ .debug_line    0x0000000000001ce8     0x157e pce_main.o
+ .debug_line    0x0000000000003266      0x2ac pce_sound.o
+ .debug_line    0x0000000000003512      0x1b6 unziplib.a(zlibInterface.o)
+ .debug_line    0x00000000000036c8     0x2d22 unziplib.a(unzip.o)
+ .debug_line    0x00000000000063ea      0x4d5 unziplib.a(zlibFileMemory.o)
+ .debug_line    0x00000000000068bf      0x10c unziplib.a(crc32.o)
+ .debug_line    0x00000000000069cb     0x1739 unziplib.a(inflate.o)
+ .debug_line    0x0000000000008104      0x585 unziplib.a(inftrees.o)
+ .debug_line    0x0000000000008689      0x269 unziplib.a(ioapi.o)
+ .debug_line    0x00000000000088f2       0xe2 unziplib.a(zutil.o)
+ .debug_line    0x00000000000089d4      0x148 unziplib.a(adler32.o)
+ .debug_line    0x0000000000008b1c      0x671 unziplib.a(inffast.o)
+
+.debug_frame    0x0000000000000000     0x2d94
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000      0x168 main.o
+ .debug_frame   0x0000000000000168      0x28c pg.o
+ .debug_frame   0x00000000000003f4       0xac _clib.o
+ .debug_frame   0x00000000000004a0      0x278 menu.o
+ .debug_frame   0x0000000000000718       0xb4 iyanbakan.o
+ .debug_frame   0x00000000000007cc     0x1364 M6502.o
+ .debug_frame   0x0000000000001b30       0xe4 sound.o
+ .debug_frame   0x0000000000001c14       0x74 mp3.o
+ .debug_frame   0x0000000000001c88      0x218 clipmp3.o
+ .debug_frame   0x0000000000001ea0       0xc0 frammp3.o
+ .debug_frame   0x0000000000001f60      0x548 pce_main.o
+ .debug_frame   0x00000000000024a8       0xb0 pce_sound.o
+ .debug_frame   0x0000000000002558       0x54 unziplib.a(zlibInterface.o)
+ .debug_frame   0x00000000000025ac      0x358 unziplib.a(unzip.o)
+ .debug_frame   0x0000000000002904      0x150 unziplib.a(zlibFileMemory.o)
+ .debug_frame   0x0000000000002a54       0x30 unziplib.a(crc32.o)
+ .debug_frame   0x0000000000002a84      0x13c unziplib.a(inflate.o)
+ .debug_frame   0x0000000000002bc0       0x40 unziplib.a(inftrees.o)
+ .debug_frame   0x0000000000002c00       0xc8 unziplib.a(ioapi.o)
+ .debug_frame   0x0000000000002cc8       0x70 unziplib.a(zutil.o)
+ .debug_frame   0x0000000000002d38       0x20 unziplib.a(adler32.o)
+ .debug_frame   0x0000000000002d58       0x3c unziplib.a(inffast.o)
+
+.debug_str      0x0000000000000000     0x2f0e
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x175 main.o
+                                        0x1b3 (size before relaxing)
+ .debug_str     0x0000000000000175      0x1bd pg.o
+                                        0x267 (size before relaxing)
+ .debug_str     0x0000000000000332       0x29 _clib.o
+                                         0xa6 (size before relaxing)
+ .debug_str     0x000000000000035b      0x2c9 menu.o
+                                        0x3a8 (size before relaxing)
+ .debug_str     0x0000000000000624       0xa9 iyanbakan.o
+                                         0xf6 (size before relaxing)
+ .debug_str     0x00000000000006cd      0x4bd M6502.o
+                                        0x5c3 (size before relaxing)
+ .debug_str     0x0000000000000b8a      0x159 sound.o
+                                        0x1c9 (size before relaxing)
+ .debug_str     0x0000000000000ce3      0x102 mp3.o
+                                        0x213 (size before relaxing)
+ .debug_str     0x0000000000000de5      0x566 clipmp3.o
+                                        0x6cf (size before relaxing)
+ .debug_str     0x000000000000134b      0x31a clipmp3a.o
+                                        0x4f6 (size before relaxing)
+ .debug_str     0x0000000000001665       0xca frammp3.o
+                                        0x4ef (size before relaxing)
+ .debug_str     0x000000000000172f      0x599 pce_main.o
+                                        0x7f3 (size before relaxing)
+ .debug_str     0x0000000000001cc8      0x16f pce_sound.o
+                                        0x4d9 (size before relaxing)
+ .debug_str     0x0000000000001e37      0x491 unziplib.a(zlibInterface.o)
+                                        0x58f (size before relaxing)
+ .debug_str     0x00000000000022c8      0x6d9 unziplib.a(unzip.o)
+                                        0xbb5 (size before relaxing)
+ .debug_str     0x00000000000029a1      0x16e unziplib.a(zlibFileMemory.o)
+                                        0x316 (size before relaxing)
+ .debug_str     0x0000000000002b0f       0x20 unziplib.a(crc32.o)
+                                        0x1ae (size before relaxing)
+ .debug_str     0x0000000000002b2f      0x241 unziplib.a(inflate.o)
+                                        0x48a (size before relaxing)
+ .debug_str     0x0000000000002d70       0x5f unziplib.a(inftrees.o)
+                                        0x255 (size before relaxing)
+ .debug_str     0x0000000000002dcf       0xa7 unziplib.a(ioapi.o)
+                                        0x39a (size before relaxing)
+ .debug_str     0x0000000000002e76       0x4a unziplib.a(zutil.o)
+                                        0x22d (size before relaxing)
+ .debug_str     0x0000000000002ec0       0x12 unziplib.a(adler32.o)
+                                        0x183 (size before relaxing)
+ .debug_str     0x0000000000002ed2       0x3c unziplib.a(inffast.o)
+                                        0x366 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0xb6df
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0xa29 main.o
+ .debug_loc     0x0000000000000a29      0x7f3 pg.o
+ .debug_loc     0x000000000000121c      0x263 _clib.o
+ .debug_loc     0x000000000000147f      0xf82 menu.o
+ .debug_loc     0x0000000000002401      0x8d4 iyanbakan.o
+ .debug_loc     0x0000000000002cd5     0x17d0 M6502.o
+ .debug_loc     0x00000000000044a5      0x238 sound.o
+ .debug_loc     0x00000000000046dd      0x16a mp3.o
+ .debug_loc     0x0000000000004847     0x1070 clipmp3.o
+ .debug_loc     0x00000000000058b7      0xa00 frammp3.o
+ .debug_loc     0x00000000000062b7     0x4d55 pce_main.o
+ .debug_loc     0x000000000000b00c      0x6d3 pce_sound.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.gptab.sdata
+ *(.gptab.data)
+ *(.gptab.sdata)
+
+.gptab.sbss
+ *(.gptab.bss)
+ *(.gptab.sbss)
+
+/DISCARD/
+ *(.note.GNU-stack)
+OUTPUT(out elf32-littlemips)
+
+.pdr            0x0000000000000000     0x3fa0
+ .pdr           0x0000000000000000       0x20 startup.o
+ .pdr           0x0000000000000020      0x1a0 main.o
+ .pdr           0x00000000000001c0      0x360 pg.o
+ .pdr           0x0000000000000520      0x120 _clib.o
+ .pdr           0x0000000000000640      0x2e0 menu.o
+ .pdr           0x0000000000000920       0xe0 iyanbakan.o
+ .pdr           0x0000000000000a00     0x2060 M6502.o
+ .pdr           0x0000000000002a60      0x140 sound.o
+ .pdr           0x0000000000002ba0       0x80 mp3.o
+ .pdr           0x0000000000002c20      0x240 clipmp3.o
+ .pdr           0x0000000000002e60       0xe0 frammp3.o
+ .pdr           0x0000000000002f40      0x660 pce_main.o
+ .pdr           0x00000000000035a0       0xa0 pce_sound.o
+ .pdr           0x0000000000003640       0x40 unziplib.a(zlibInterface.o)
+ .pdr           0x0000000000003680      0x360 unziplib.a(unzip.o)
+ .pdr           0x00000000000039e0      0x240 unziplib.a(zlibFileMemory.o)
+ .pdr           0x0000000000003c20       0x40 unziplib.a(crc32.o)
+ .pdr           0x0000000000003c60      0x140 unziplib.a(inflate.o)
+ .pdr           0x0000000000003da0       0x20 unziplib.a(inftrees.o)
+ .pdr           0x0000000000003dc0      0x100 unziplib.a(ioapi.o)
+ .pdr           0x0000000000003ec0       0xa0 unziplib.a(zutil.o)
+ .pdr           0x0000000000003f60       0x20 unziplib.a(adler32.o)
+ .pdr           0x0000000000003f80       0x20 unziplib.a(inffast.o)
+
+.mdebug.eabi32  0x0000000000000000        0x0
+
+.gcc_compiled_long32
+                0x0000000000000000        0x0
+
+.debug_ranges   0x0000000000000000      0x8d8
+ .debug_ranges  0x0000000000000000       0x18 pg.o
+ .debug_ranges  0x0000000000000018       0xd0 menu.o
+ .debug_ranges  0x00000000000000e8       0x38 iyanbakan.o
+ .debug_ranges  0x0000000000000120      0x280 M6502.o
+ .debug_ranges  0x00000000000003a0       0x48 sound.o
+ .debug_ranges  0x00000000000003e8       0x58 mp3.o
+ .debug_ranges  0x0000000000000440      0x340 pce_main.o
+ .debug_ranges  0x0000000000000780       0x48 pce_sound.o
+ .debug_ranges  0x00000000000007c8       0x18 unziplib.a(zlibInterface.o)
+ .debug_ranges  0x00000000000007e0       0xf8 unziplib.a(unzip.o)
